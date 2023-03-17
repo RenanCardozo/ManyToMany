@@ -1,0 +1,11 @@
+@using ProductCategory.Models
+@model AllCategories
+
+    @foreach (Category category in Model.Categories)
+    {
+        <p>
+
+        <a asp-action="CategoryAsso" asp-route-categoryId="@category.CategoryId">@category.Name</a>
+        </p>
+        
+    }

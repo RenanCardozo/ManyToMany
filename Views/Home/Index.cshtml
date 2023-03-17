@@ -1,0 +1,13 @@
+﻿
+@await Html.PartialAsync("_Navbar")
+
+<div class="row text-center">
+    <div class="col-md-6">
+        <h2>New Product</h2>
+        @await Html.PartialAsync("~/Views/Products/_NewProductForm.cshtml")
+    </div>
+    <div class="col-md-6">
+        <h2>All Products</h2>
+        @await Html.PartialAsync("~/Views/Products/_ProductView.cshtml")
+    </div>
+</div>

@@ -1,0 +1,15 @@
+@using ProductCategory.Models
+@model AllProducts
+
+
+
+
+
+
+@foreach (Product product in Model.Products)
+{
+    <p>
+    <a asp-action="ProductAsso" asp-route-productId="@product.ProductId">@product.Name</a>
+    </p>
+}
+

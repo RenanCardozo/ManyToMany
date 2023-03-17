@@ -1,0 +1,12 @@
+@await Html.PartialAsync("_Navbar")
+<div class="row">
+    <div class="col-md-6">
+        <h2>Create Category</h2>
+        <partial name="~/Views/Categories/_CategoriesForm.cshtml"/>
+    </div>
+    <div class="col-md-6">
+        <h2>All Categories</h2>
+        <partial name="~/Views/Categories/_CategoryView.cshtml" />
+        <!-- Add your table for listing all categories -->
+    </div>
+</div>
