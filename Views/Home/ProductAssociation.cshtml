@@ -1,0 +1,43 @@
+@model ProductCategoryViewModel
+
+@await Html.PartialAsync("_Navbar")
+
+<h1 class="text-center">
+    @Model.Product?.Name
+</h1>
+<div class="d-flex text-center justify-content-around">
+<div>
+<h3>
+    Categories:
+</h3>
+@if (Model.Product?.Associations != null)
+{
+@foreach (Association item in Model.Product.Associations)
+{
+    if (item?.Category != null)
+    {
+        <p>@item.Category.Name - <a class="btn btn-sm btn-danger" asp-action="DeleteAssociation" asp-controller="Home" asp-route-pagefrom="Products" asp-route-associationId="@item.AssociationId">Delete</a></p>
+    }
+}
+}
+</div>
+
+<div>
+<form asp-action="CreateProductAssociation" asp-controller="Home" asp-route-productId ="@Model.Product?.ProductId" method="post">
+    <label>Categories</label>
+    <select class="form-control" id="categorySelect" asp-for="Association.CategoryId">
+        <option value="">Choose a category</option>
+        @if (Model.AvailableCategories != null)
+        {
+            foreach(Category category in Model.AvailableCategories)
+            {
+                <option value="@category.CategoryId">@category.Name</option>
+            }
+        }
+    </select>
+
+
+    <button class="btn btn-sm btn-success m-3">Create Association</button>
+</form>
+</div>
+</div>

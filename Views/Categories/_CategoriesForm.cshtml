@@ -1,0 +1,13 @@
+@using ProductCategory.Models
+@model AllCategories
+
+
+
+<form asp-action="CreateCategory" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label for="Category.Name">Category Name</label>
+        <input type="text" class="form-control" id="Name" asp-for="Category.Name" >
+        <span asp-validation-for="Category.Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="wizard-button">Create </button>
+</form>
