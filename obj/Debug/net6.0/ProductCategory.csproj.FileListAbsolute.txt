@@ -33,3 +33,8 @@ C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net
 C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\ProductCategory.pdb
 C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\ProductCategory.genruntimeconfig.cache
 C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\ref\ProductCategory.dll
+C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\staticwebassets\msbuild.ProductCategory.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\staticwebassets\msbuild.build.ProductCategory.props
+C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ProductCategory.props
+C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ProductCategory.props
+C:\Users\ltren\OneDrive\Desktop\CodingDojo\C#\LinQ\ProductCategory\obj\Debug\net6.0\staticwebassets.pack.json

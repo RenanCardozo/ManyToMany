@@ -5,7 +5,7 @@ using ProductCategory.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-namespace ChefsAndDishes.Controllers;
+namespace ProductCategory.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
